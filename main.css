@@ -63,6 +63,10 @@ input[type="text"] {
   display: flex;
   flex-wrap: wrap;
 }
+.content-window-image {
+  width: 100%;
+  border-radius: 7px;
+}
 .content-top-text {
   font-size: 2rem;
   color: white;
@@ -72,5 +76,44 @@ input[type="text"] {
   border-radius: 10px;
   background-color: rgb(10, 10, 10);
   margin: 0.3rem;
-  width: 5vw;
+  padding: 0.5rem;
+  width: 7vw;
+  height: auto;
+}
+.player {
+  align-items: center;
+  background-color: rgba(50, 50, 50, 0.95);
+  bottom: 1rem;
+  position: fixed;
+  border: 2px solid white;
+  border-radius: 50px;
+  display: flex;
+  left: calc(10vw + (100vw - 10vw) / 2);
+  width: 40vw;
+  height: 8vh;
+  transform: translateX(-50%);
+}
+.player-content {
+  display: flex;
+  align-items: center;
+}
+.player-image {
+  left: 0;
+  margin: 1vh;
+  width: 6.5vh;
+  border-radius: 50px;
+}
+.player-content-text {
+  margin: 0.5vw;
+}
+.player-content-artist {
+  margin: 0.5vw;
+  font-size: smaller;
+  font-weight: lighter;
+}
+.player-content-favorite {
+  margin: auto;
+}
+.player-controls {
+  margin: auto;
 }
