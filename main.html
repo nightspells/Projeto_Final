@@ -3,23 +3,20 @@
 <head>
     <link rel="stylesheet" href="main.css">
     <meta charset="UTF-8">
-    <title>RipaInChulipa</title>
+    <title>Lav's Productions</title>
 </head>
 
 <body>
     <div class="side-panel">
-        <h2 >Lav's Productions</h2>
-        <a href="">Início</a><br>
-        <p></p>
-        <a href="">Buscar</a><br>
-        <p></p>
-        <a href="">Biblioteca</a><br>
-    <p></p>
-        <hr>
-    <p></p>
-         <a href="" style="color: rgb(184, 107, 255);">Criar playlist</a><br>
-         <p></p>
-         <a href="" style="color: rgb(184, 108, 255);">Músicas favoritas</a><br>
+        <h2 class="side-panel-main-text">Lav's Productions</h2>
+        <a class="side-panel-text" href="">Início</a><br>
+        <a class="side-panel-text" href="">Buscar</a><br>
+        <a class="side-panel-text" href="">Biblioteca</a><br>
+        <hr class="spacer">
+        <a class="side-panel-text" href="">Criar playlist</a><br>
+        <a class="side-panel-text" href="">Músicas favoritas</a><br>
+        <a class="side-panel-text" href="">Teste</a>
+        <hr class="spacer">
     </div>
 
     <div class="content-container">
@@ -28,7 +25,7 @@
             <input type="text" placeholder="Buscar música"> 
         </div>
 
-        <h2> Albuns em alta</h2>
+        <h2 class="content-top-text">Albuns em alta</h2>
 
         <div class="content">
             <div class="content-window" style="background:#181818; padding:10px; width:150px; border-radius:10px;">
@@ -54,13 +51,11 @@
                 <p>Sipknot(Deluxe version)</p>
                 <small>Slipknot</small>
             </div>
-
         </div>
 
- <h2> Músicas mais Populares</h2>
-        <div style="display:flex; gap:20px; flex-wrap:wrap;">
+        <h2 class="content-top-text">Músicas mais Populares</h2>
 
-          
+        <div class="content">
             <div class="content-window" style="background:#181818; padding:10px; width:150px; border-radius:10px;">
                 <img src="olagostaria.jpg" width="100%" style="border-radius:10px;">
                 <p>Olá gostaria</p>
@@ -91,26 +86,22 @@
                 <small>Pitty</small>
             </div>
 
-        <h2 style="margin-top:30px;">🎧 Recomendadas</h2>
+            <h2 class="content-top-text">Recomendadas</h2>
 
-        <div style="display:flex; gap:20px; flex-wrap:wrap;">
+            <div class="content">
+                <div class="content-window">
+                    <img src="https://via.placeholder.com/150" width="100%">
+                    <p>Música 5</p>
+                    <small>Artista</small>
+                </div>
 
-            <div style="background:#181818; padding:10px; width:150px; border-radius:10px;">
-                <img src="https://via.placeholder.com/150" width="100%">
-                <p>Música 5</p>
-                <small>Artista</small>
-            </div>
-
-            <div style="background:#181818; padding:10px; width:150px; border-radius:10px;">
-                <img src="https://via.placeholder.com/150" width="100%">
-                <p>Música 6</p>
-                <small>Artista</small>
+                <div class="content-window">
+                    <img src="https://via.placeholder.com/150" width="100%">
+                    <p>Música 6</p>
+                    <small>Artista</small>
+                </div>
             </div>
         </div>
-    </div>
-
-
-   
     
     <div style="position:fixed; bottom:0; width:100% background #4a0c57; padding:10px; display:flex; align-items:center; justify-content:space-between;">
         <div style="display:flex; align-items:center; gap:10px;">
@@ -128,7 +119,6 @@
         <div>
         ❤️ 🔁 🔊
         </div>
-
     </div>
 </body>
 </html>

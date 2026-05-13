@@ -6,11 +6,16 @@ body {
   background-color: rgb(30, 30, 30);
   color: white;
 }
+.spacer {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
 .content-container {
   margin-left: 15vw;
 }
 .top-text {
   padding-top: 3vh;
+  padding-bottom: 2vh;
   margin: auto;
   justify-content: center;
   display: flex;
@@ -40,10 +45,32 @@ input[type="text"] {
   height: 100vh;
   position: fixed;
 }
+.side-panel-main-text {
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+.side-panel-text {
+  text-decoration: none;
+  font-style: normal;
+  color: rgb(120, 120, 255);
+  font-weight: bold;
+}
+.side-panel-text:hover {
+  color: rgb(170, 170, 255);
+  font-size: large;
+}
 .content {
   display: flex;
   flex-wrap: wrap;
 }
+.content-top-text {
+  font-size: 2rem;
+  color: white;
+  padding: 1rem;
+}
 .content-window {
+  border-radius: 10px;
+  background-color: rgb(10, 10, 10);
   margin: 0.3rem;
+  width: 5vw;
 }
