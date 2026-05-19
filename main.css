@@ -25,7 +25,7 @@ body {
 .spacer {
   margin-top: 1vh;
   margin-bottom: 1vh;
-  color: white;
+  color: transparent;
 }
 .content-container {
   margin-left: 15vw;
