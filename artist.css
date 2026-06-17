@@ -98,7 +98,7 @@ body {
   color: rgb(190, 190, 190);
 }
 .content {
-  margin-left: 14vw;
+  margin-left: 2vw;
   justify-content: center;
   align-items: center;
   place-items: center;
@@ -108,7 +108,7 @@ body {
   border-radius: 10px;
   /* background-color: rgb(30, 30, 30); */
   background-color: transparent;
-  margin: 0.1rem;
+  margin: 0.1vw;
   padding: 0.2rem;
   width: 58vw;
   height: 7vh;
@@ -117,7 +117,7 @@ body {
   background-color: rgb(20, 20, 50);
 }
 .content-window-image {
-  width: 6%;
+  width: 5%;
   height: 100%;
   border-radius: 3px;
 }
