@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="artist.css">
+    <link rel="icon" href="src/logo/muziqo-no-name.png" type="image/png">
+    <meta charset="UTF-8">
+    <title>Muziqo</title>
+</head>
+
+<body>
+    <div class="side-panel">
+        <img src="src/logo/muziqo-logo-side.png" class="logo">
+        <a class="side-panel-text" href="">Início</a><br>
+        <a class="side-panel-text" href="">Buscar</a><br>
+        <a class="side-panel-text" href="">Biblioteca</a><br>
+        <hr class="spacer">
+        <a class="side-panel-text" href="">Criar playlist</a><br>
+        <a class="side-panel-text" href="">Músicas favoritas</a><br>
+        <a class="side-panel-text" href="">Teste</a>
+        <hr class="spacer">
+        <a class="side-panel-text" href="">Teste</a><br>
+        <a class="side-panel-text" href="">Teste</a><br>
+        <a class="side-panel-text" href="">Teste</a>
+        <hr class="spacer">
+        <div class="login-btn"><a href="login.html">Login</a></div>
+    </div>
+
+    <div class="content-container">
+        <div class="artist-container">
+            <div class="artist">
+                <img class="artist-cover" src="src/img/lk-cover-crop.jpg">
+                <div class="artist-name">
+                    <h1>Linkin Park</h1>
+                    <h5>Ouvintes mensais: 56,340,432</h5>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="content-top-text">Mais ouvidas</h2>
+
+        <div class="content">
+            <div class="content-window" >
+                <img src="src/img/hybrid.png" class="content-window-image">
+                <div class="content-window-text">
+                    <p class="content-window-text">In the End</p>
+                    <h6 class="content-window-artist"><a href="artist.html">Linkin Park</a></h6>
+                </div>
+                <div class="time">
+                    <h5>3:36</h5>
+                </div>
+            </div>
+        
+            <div class="content-window" >
+                <img src="src/img/meteora.jpg" class="content-window-image">
+                <div class="content-window-text">
+                    <p class="content-window-music">Numb</p>
+                    <h6 class="content-window-artist"><a href="artist.html">Linkin Park</a></h6>
+                </div>
+                <div class="time">
+                    <h5>3:07</h5>
+                </div>
+            </div>
+            <div class="content-window" >
+                <img src="src/img/meteora.jpg" class="content-window-image">
+                <div class="content-window-text">
+                    <p class="content-window-text">Somewhere I Belong</p>
+                    <h6 class="content-window-artist"><a href="artist.html">Linkin Park</a></h6>
+                </div>
+                <div class="time">
+                    <h5>3:33</h5>
+                </div>
+            </div>
+            <div class="content-window" >
+                <img src="src/img/meteora.jpg" class="content-window-image">
+                <div class="content-window-text">
+                    <p class="content-window-text">Faint</p>
+                    <h6 class="content-window-artist"><a href="artist.html">Linkin Park</a></h6>
+                </div>
+                <div class="time">
+                    <h5>2:42</h5>
+                </div>
+            </div>
+            <div class="content-window" >
+                <img src="src/img/what.jpg" class="content-window-image">
+                <div class="content-window-text">
+                    <p class="content-window-text">What I've Done</p>
+                    <h6 class="content-window-artist"><a href="artist.html">Linkin Park</a></h6>
+                </div>
+                <div class="time">
+                    <h5>3:25</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="player">
+        <div class="player-content">
+            <img class="player-image" src="src/img/anacastela.jpg">
+            <div>
+                <p class="player-content-text">Música atual</p>
+                <p class="player-content-artist">Artista</p>
+            </div>
+        </div>
+
+        <audio controls class="player-controls">
+            <source src="musica.mp3" type="audio/mpeg">
+        </audio>
+
+        <div class="player-content-favorite">
+            <img src="src/icons/favorite/favorite-24.png">
+        </div>
+    </div>
+</body>
+</html>

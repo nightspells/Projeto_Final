@@ -63,22 +63,16 @@ body {
   font-weight: bold;
   font-size: 3rem;
 }
-input[type="text"] {
-  text-align: center;
-  background-color: rgb(50, 50, 50);
-  color: white;
-  display: fixed;
+.artist-container {
+  display: flex;
   justify-content: center;
   align-items: center;
   place-items: center;
-  margin-top: 1rem;
-  left: calc(12vw + (50vw - 12vw) / 2);
-  transform: translateX(+35%);
-  width: 50vw;
-  height: 4vh;
-  border: 2px solid whitesmoke;
-  border-radius: 50px;
-  outline: none;
+}
+.artist-cover {
+  margin-top: 2vh;
+  width: 60vw;
+  border-radius: 20px;
 }
 .side-panel {
   border-top-right-radius: 20px;
@@ -104,29 +98,31 @@ input[type="text"] {
   color: rgb(190, 190, 190);
 }
 .content {
-  display: flex;
-  flex-wrap: wrap;
-  overflow-y: auto;
+  margin-left: 14vw;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
 }
 .content-window {
+  display: flex;
   border-radius: 10px;
   /* background-color: rgb(30, 30, 30); */
   background-color: transparent;
-  margin: 0.3rem;
-  padding: 0.5rem;
-  width: 9vw;
-  height: 27vh;
+  margin: 0.1rem;
+  padding: 0.2rem;
+  width: 58vw;
+  height: 7vh;
 }
 .content-window:hover {
   background-color: rgb(20, 20, 50);
-  animation-name: growth;
-  animation-duration: 0.5s;
 }
 .content-window-image {
-  width: 100%;
-  border-radius: 7px;
+  width: 6%;
+  height: 100%;
+  border-radius: 3px;
 }
 .content-window-text {
+  padding-left: 0.2vw;
   word-break: normal;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -135,16 +131,21 @@ input[type="text"] {
   overflow: visible;
 }
 .content-window-artist {
-  padding-top: 0.5rem;
+  padding-top: 0.3rem;
+  padding-left: 0.2vw;
 }
 .content-top-text {
+  margin-top: 5vh;
+  margin-left: 12vw;
   font-size: 2rem;
   color: white;
   padding: 1rem;
 }
+.time {
+  margin-left: auto;
+  margin-top: 2.4vh;
+}
 .player {
-  animation-name: pull;
-  animation-duration: 2s;
   align-items: center;
   background-color: rgb(26, 26, 26);
   bottom: 1rem;
